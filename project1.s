@@ -11,4 +11,9 @@
    newline: .asciiz "\n"
  	Input_user: .space  10
 
- .text 
+ .text
+
+         main:
+         	la $s1, 0					
+		la $s3, 0				
+		la $s4, 0
