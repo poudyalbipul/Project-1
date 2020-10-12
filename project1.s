@@ -17,3 +17,15 @@
          	la $s1, 0					
 		la $s3, 0				
 		la $s4, 0
+
+
+            li $v0, 4 			
+		la $a0, 0               
+		syscall
+
+		li $v0, 8	
+		la $a0, input	
+		li $a1, 11  
+		move $t0, $a0	 	
+		syscall
+
